@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.big-button {
+  @apply bg-indigo-400 rounded-md uppercase font-bold text-white w-full py-3 mt-4 text-lg hover:bg-indigo-300 transition-colors disabled:bg-slate-300 disabled:cursor-not-allowed;
+}
